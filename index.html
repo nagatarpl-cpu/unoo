@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNO Game</title>
+    <title>Castle Defense</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>UNO Game (Simple Version)</h1>
-    <div id="game-container">
-        <div id="player-hand"></div>
-        <div id="discard-pile"></div>
-        <button id="draw-btn">Draw Card</button>
-        <div id="game-message"></div>
+    <h1>Castle Defense</h1>
+    <canvas id="gameCanvas" width="480" height="320"></canvas>
+    <div id="ui">
+        <button id="startBtn">Start Game</button>
+        <div id="info"></div>
     </div>
     <script src="script.js"></script>
 </body>
